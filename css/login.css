@@ -1,0 +1,25 @@
+html {
+  background: url(../images/monetorBackground.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header1 {
+  color: #EF4750;
+  font-family: 'Montserrat';
+  font-size: 400%;
+  letter-spacing: 5px;
+  text-align: center;
+  line-height: 350px;
+}
+
+sup {
+  font-size: 40%;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
