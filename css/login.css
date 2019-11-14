@@ -6,20 +6,68 @@ html {
   background-size: cover;
 }
 
-.header1 {
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "login";
+}
+
+.header {
+  grid-area: header;
   color: #EF4750;
   font-family: 'Montserrat';
-  font-size: 400%;
-  letter-spacing: 5px;
+  font-size: 40px;
+  letter-spacing: 15px;
   text-align: center;
-  line-height: 350px;
 }
 
 sup {
   font-size: 40%;
 }
 
-form {
-  display: grid;
-  grid-template-columns: 200px 1fr;
+.login {
+  grid-area: login;
+}
+
+#eMail, #passWord {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #D2DEEC;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color:#D2DEEC;
+}
+
+button {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  font-family: 'Montserrat';
+  border: 1px solid #D9454F;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color:#D9454F;
+}
+
+.checkbox {
+  font-size: 1px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+/* @media (min-width: 500px) {
+
+.header {
+  /* grid-column: col-start / span 3;
+}
+
+
 }
