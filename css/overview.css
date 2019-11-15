@@ -6,13 +6,17 @@ html {
   background-size: cover;
 }
 
-.header1 {
+.main-header {
   color: #EF4750;
   font-family: 'Montserrat';
   font-size: 400%;
   letter-spacing: 5px;
   text-align: center;
   line-height: 350px;
+}
+
+hr {
+  width: 30%;
 }
 
 .header2 {
@@ -23,4 +27,57 @@ html {
 
 sup {
   font-size: 40%;
+}
+
+button {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  font-family: 'Montserrat';
+  border: 1px solid #D9454F;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color:#D9454F;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #D2DDEC;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 50px 8px 8px 35px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #414040;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #EF4750;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }

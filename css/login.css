@@ -63,6 +63,11 @@ a {
   color: white;
 }
 
+h2 {
+  font-family: 'Montserrat';
+  color: #D9454F;
+}
+
 /* @media (min-width: 500px) {
 
 .header {
