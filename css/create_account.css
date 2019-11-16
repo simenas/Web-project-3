@@ -1,0 +1,82 @@
+html {
+  background: url(../images/monetorBackground.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+  grid-area: header;
+  color: #ef4750;
+  font-family: "Montserrat";
+  font-size: 40px;
+  letter-spacing: 15px;
+  text-align: center;
+}
+
+sup {
+  font-size: 25%;
+  top: -25px;
+  position: relative;
+}
+
+.wrapper {
+  display: grid;
+  margin: auto;
+  padding: 10px;
+  padding-top: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.signinButton {
+  border: 1px solid #ef4750;
+  background-color: #ef4750;
+  padding: 20px 20px;
+  margin: 8px 0;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.orFont {
+  padding-top: 10%;
+  font-family: "Montserrat", sans-serif;
+  color: #d2deec;
+}
+
+#eMail,
+#passWord {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #d2deec;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #d2deec;
+}
+
+.checkbox {
+  font-size: 1px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat";
+  color: #d9454f;
+}
+
+/* @media (min-width: 500px) {
+
+.header {
+  /* grid-column: col-start / span 3;
+}
+}
+*/
