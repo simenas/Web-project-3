@@ -10,7 +10,7 @@ html {
   grid-area: header;
   color: #ef4750;
   font-family: "Montserrat";
-  font-size: 40px;
+  font-size: 225%;
   letter-spacing: 15px;
   text-align: center;
 }

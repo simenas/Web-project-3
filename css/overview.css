@@ -6,13 +6,18 @@ html {
   background-size: cover;
 }
 
+.header-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  color: #d2deec;
+}
+
 .main-header {
   color: #ef4750;
   font-family: "Montserrat";
-  font-size: 400%;
+  font-size: 100%;
   letter-spacing: 5px;
-  text-align: center;
-  line-height: 350px;
+  text-align: right;
 }
 
 hr {
@@ -39,6 +44,10 @@ button {
   border-radius: 4px;
   box-sizing: border-box;
   background-color: #d9454f;
+}
+
+#mySidenav {
+  width: 250px;
 }
 
 .sidenav {
