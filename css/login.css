@@ -6,51 +6,67 @@ html {
   background-size: cover;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "login";
-}
-
 .header {
   grid-area: header;
-  color: #EF4750;
-  font-family: 'Montserrat';
+  color: #ef4750;
+  font-family: "Montserrat";
   font-size: 40px;
   letter-spacing: 15px;
   text-align: center;
 }
 
 sup {
-  font-size: 40%;
+  font-size: 25%;
+  top: -25px;
+  position: relative;
 }
 
-.login {
-  grid-area: login;
+.wrapper {
+  display: grid;
+  margin: auto;
+  padding: 10px;
+  padding-top: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
-#eMail, #passWord {
-  width: 25%;
-  padding: 12px 20px;
+.signinButton {
+  border: 1px solid #ef4750;
+  background-color: #ef4750;
+  padding: 20px 20px;
+  margin: 8px 0;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.orFont {
+  padding-top: 5%;
+  font-family: "Montserrat", sans-serif;
+  color: #d2deec;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  color: #d2deec;
+  margin: 8px 0;
+}
+
+.grid-item2 {
+  text-align: right;
+}
+
+#eMail,
+#passWord {
+  width: 100%;
+  padding: 20px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #D2DEEC;
+  border: 1px solid #d2deec;
   border-radius: 4px;
   box-sizing: border-box;
-  background-color:#D2DEEC;
-}
-
-button {
-  width: 25%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  font-family: 'Montserrat';
-  border: 1px solid #D9454F;
-  border-radius: 4px;
-  box-sizing: border-box;
-  background-color:#D9454F;
+  background-color: #d2deec;
 }
 
 .checkbox {
@@ -64,8 +80,8 @@ a {
 }
 
 h2 {
-  font-family: 'Montserrat';
-  color: #D9454F;
+  font-family: "Montserrat";
+  color: #d9454f;
 }
 
 /* @media (min-width: 500px) {
@@ -73,6 +89,5 @@ h2 {
 .header {
   /* grid-column: col-start / span 3;
 }
-
-
 }
+*/
