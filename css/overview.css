@@ -7,8 +7,8 @@ html {
 }
 
 .main-header {
-  color: #EF4750;
-  font-family: 'Montserrat';
+  color: #ef4750;
+  font-family: "Montserrat";
   font-size: 400%;
   letter-spacing: 5px;
   text-align: center;
@@ -34,11 +34,11 @@ button {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  font-family: 'Montserrat';
-  border: 1px solid #D9454F;
+  font-family: "Montserrat";
+  border: 1px solid #d9454f;
   border-radius: 4px;
   box-sizing: border-box;
-  background-color:#D9454F;
+  background-color: #d9454f;
 }
 
 .sidenav {
@@ -48,36 +48,84 @@ button {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #D2DDEC;
+  background-color: #d2ddec;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
 }
 
+.sidenav img {
+  margin-right: 10%;
+}
+
 .sidenav a {
-  padding: 50px 8px 8px 35px;
   text-decoration: none;
   font-size: 25px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: bold;
   color: #414040;
-  display: block;
-  transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #EF4750;
+  color: #ef4750;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 15%;
+  padding: 10px;
+  padding-left: 10%;
+}
+
+.grid-container .menuText1 a {
+  padding-bottom: 10px;
+  margin-top: 3%;
+  position: absolute;
+}
+
+.grid-container .menuText2 a {
+  padding-bottom: 10px;
+  margin-top: 7%;
+  position: absolute;
+}
+
+.grid-container .menuText3 a {
+  padding-bottom: 10px;
+  margin-top: 3%;
+  position: absolute;
+}
+
+.grid-container .menuText4 a {
+  padding-bottom: 10px;
+  margin-top: 3%;
+  position: absolute;
+}
+
+.grid-container .menuText5 a {
+  padding-bottom: 10px;
+  margin-top: 3%;
+  position: absolute;
+}
+
+.grid-container .menuText6 a {
+  padding-bottom: 10px;
+  margin-top: 2%;
+  position: absolute;
 }
 
 .sidenav .closebtn {
   position: absolute;
-  top: 0;
+  top: 0px;
   right: 20px;
   font-size: 40px;
   margin-left: 5px;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 20px;
+  }
+  .sidenav a {
+    font-size: 20px;
+  }
 }

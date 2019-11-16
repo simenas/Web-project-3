@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<link rel="stylesheet" type="text/css" href="../css/overview.css">
-	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-</head>
-<body>
-	<!--Sidenav inspiration from w3schools how to sidenav. -->
-	<div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="#">OVERVIEW</a>
-		<a href="#">WALLET</a>
-		<a href="#">ALERTS</a>
-		<a href="#">PROFILE</a>
-		<a href="#">STATISTICS</a>
-		<a href="#">SETTINGS</a>
-	</div>
-	<span style="font-size:40px;cursor:pointer;color:white;" onclick="openNav()">&#9776;</span>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/overview.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Sidenav inspiration from w3schools how to sidenav. -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a>
+      
+        <div class="grid-container">
+       <div class="menuText1"><img src="..\images\Icons\overview.png"></img><a href="#">OVERVIEW</a></div>
+       <div class="menuText2"><img src="..\images\Icons\wallets.png"></img><a href="#">WALLETS</a></div>
+       <div class="menuText3"><img src="..\images\Icons\alert.png"></img><a href="#">ALERTS</a></div>
+       <div class="menuText4"><img src="..\images\Icons\profile.png"></img><a href="#">PROFILE</a></div>
+       <div class="menuText5"><img src="..\images\Icons\statistics.png"></img><a href="#">STATISTICS</a></div>
+       <div class="menuText6"><img src="..\images\Icons\settings.png"></img><a href="#">SETTINGS</a></div>
+    </div>
+  </div>
 
-	<div class="wrapper">
-		<div class="main-header">
-			<h1>MONETOR<sup>&copy;</sup></h1></div>
-		<div class="header2">
-			<h3>OVERVIEW</h3>
-			<hr>
-			<h4>Alerts</h4>
-			<p>Act on them now!</p>
-			<button>SECURE ALL</button></div>
-		<div class="header4"><h4>EUR -> NOK</h4></div>
-	</div>
+        <span style="font-size:40px;cursor:pointer;color:white;" onclick="openNav()"
+      >&#9776;</span>
 
-<script src="../js/overview.js"></script>
-</body>
+    <div class="wrapper">
+      <div class="main-header">
+        <h1>MONETOR<sup>&copy;</sup></h1>
+      </div>
+      <div class="header2">
+        <h3>OVERVIEW</h3>
+        <hr />
+        <h4>Alerts</h4>
+        <p>Act on them now!</p>
+        <button>SECURE ALL</button>
+      </div>
+      <div class="header4"><h4>EUR -> NOK</h4></div>
+    </div>
+
+    <script src="../js/overview.js"></script>
+  </body>
 </html>
