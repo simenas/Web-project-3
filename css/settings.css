@@ -92,9 +92,7 @@ button {
 }
 
 #mySidenav > div > div.menuText1 {
-  background-color: #09344a;
-  width: 100%;
-  border: 25px solid #09344a;
+  border: 25px solid #0a293e;
 }
 
 #mySidenav > div > div.menuText2 {
@@ -114,7 +112,9 @@ button {
 }
 
 #mySidenav > div > div.menuText6 {
-  border: 25px solid #0a293e;
+  background-color: #09344a;
+  width: 100%;
+  border: 25px solid #09344a;
 }
 
 .grid-container .menuText1 a {

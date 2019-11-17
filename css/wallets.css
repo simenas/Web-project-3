@@ -92,13 +92,13 @@ button {
 }
 
 #mySidenav > div > div.menuText1 {
-  background-color: #09344a;
-  width: 100%;
-  border: 25px solid #09344a;
+  border: 25px solid #0a293e;
 }
 
 #mySidenav > div > div.menuText2 {
-  border: 25px solid #0a293e;
+  background-color: #09344a;
+  width: 100%;
+  border: 25px solid #09344a;
 }
 
 #mySidenav > div > div.menuText3 {
