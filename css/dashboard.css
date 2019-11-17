@@ -2,6 +2,10 @@
   background-color: #09344a;
   width: 100%;
   border: 25px solid #09344a;
+  -webkit-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 0px 13px -4px rgba(0, 0, 0, 0.75);
+  z-index: 1;
 }
 
 #mySidenav > div > div.menuText2,
