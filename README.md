@@ -1,4 +1,9 @@
 # Web-project-3
 
-test stian branch2
-gitfsdf
+## The team
+
+Stian Hjulstad Nilsen
+Simen André Stenbakk
+Lysa Sophie Botn Stensland
+Vetle Kruse Gundersen
+Preben Moberg
