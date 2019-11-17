@@ -1,10 +1,6 @@
 # Web-project-3
 
-  
-
 ## The team
-
-  
 
 Stian Hjulstad Nilsen
 
