@@ -15,3 +15,22 @@ div.menuText4,
 div.menuText5 {
   border: 25px solid #0a293e;
 }
+
+.wrapper {
+  display: grid;
+  margin: auto;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  color: #d2deec;
+  margin: 8px 0;
+}
+
+.smallGap {
+  bottom: 15%;
+  position: relative;
+}

@@ -10,11 +10,36 @@ html {
 }
 
 h1,
-h2,
-h3,
-h4 {
+h2 {
   font-family: "Montserrat";
   text-shadow: 1px 1px 2px black;
+  color: #d2deec;
+}
+
+span {
+  font-family: "Montserrat";
+}
+
+p {
+  font-family: "Montserrat";
+  color: #d2deec;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.monetorLogo {
+  font-family: "Montserrat";
+  text-shadow: 1px 1px 2px black;
+  color: #ef4750;
+}
+
+.headLine {
+  text-align: center;
+  letter-spacing: 10px;
 }
 
 .header-container {
@@ -37,7 +62,9 @@ h4 {
 }
 
 hr {
-  width: 30%;
+  width: 100%;
+  text-align: left;
+  border: 1px solid #d2deec;
 }
 
 .header2 {
@@ -50,16 +77,14 @@ sup {
   font-size: 40%;
 }
 
-button {
-  width: 25%;
-  padding: 12px 20px;
+.secureButton {
+  border: 1px solid #ef4750;
+  background-color: #ef4750;
+  padding: 20px 20px;
   margin: 8px 0;
-  display: inline-block;
-  font-family: "Montserrat";
-  border: 1px solid #d9454f;
-  border-radius: 4px;
-  box-sizing: border-box;
-  background-color: #d9454f;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .sidenav {
