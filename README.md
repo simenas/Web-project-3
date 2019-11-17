@@ -11,4 +11,3 @@ Lysa Sophie Botn Stensland
 Vetle Kruse Gundersen
 
 Preben Moberg
-testsetsa
