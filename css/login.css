@@ -6,15 +6,6 @@ html {
   background-size: cover;
 }
 
-.header {
-  grid-area: header;
-  color: #ef4750;
-  font-family: "Montserrat";
-  font-size: 225%;
-  letter-spacing: 15px;
-  text-align: center;
-}
-
 sup {
   font-size: 25%;
   top: -25px;
@@ -28,6 +19,15 @@ sup {
   padding-top: 5%;
   padding-left: 30%;
   padding-right: 30%;
+}
+
+.monetorHeader {
+  font-family: "Montserrat";
+  text-shadow: 1px 1px 2px black;
+  color: #ef4750;
+  letter-spacing: 15px;
+  font-size: 350%;
+  text-align: center;
 }
 
 .signinButton {
