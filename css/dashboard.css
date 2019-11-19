@@ -39,17 +39,26 @@ div.menuText6 {
 .alert1 {
   background-color: #6bdb9a;
   position: relative;
-  height: 30%;
   grid-template-columns: auto auto auto;
   display: grid;
-  padding: 2%;
+  box-shadow: 7px 6px 14px -4px;
+  padding-left: 5%;
+}
+
+.alert1Red {
+  background-color: #b87682;
+  position: relative;
+  grid-template-columns: auto auto auto;
+  display: grid;
+  box-shadow: 7px 6px 14px -4px;
+  padding-left: 5%;
 }
 
 .alertValue {
   color: #0a293e;
-  letter-spacing: 5px;
   font-size: 2em;
-  font-family: "Arial Bold";
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
 }
 
 .eurSmall {
@@ -57,6 +66,75 @@ div.menuText6 {
 }
 
 .bellRight {
-  margin-right: auto;
-  padding-left: 85%;
+  position: absolute;
+  right: 5%;
+  bottom: 70%;
+}
+
+.secureButton {
+  border: 1px solid #ef4750;
+  background-color: #ef4750;
+  padding: 20px 0px;
+  margin: 8px 0;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 7px 6px 14px -4px color black;
+  letter-spacing: 5px;
+}
+
+.secureButtonBlue {
+  border: 1px solid #0a293e;
+  background-color: #0a293e;
+  margin: 36px 0px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10%;
+  box-shadow: 7px 6px 14px -4px;
+}
+
+.secureColor {
+  color: #d2deec;
+  font-size: 150%;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.alertUpDownPosition {
+  color: #04915b;
+  background-color: #7bf3a6;
+  border-top-left-radius: 50px;
+  position: relative;
+  margin-top: 10%;
+}
+
+.alertUpDownPositionRed {
+  color: #fe2729;
+  background-color: #df8893;
+  border-top-left-radius: 50px;
+  position: relative;
+  margin-top: 10%;
+}
+
+.alertUpDown {
+  padding-top: 10%;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.detailsColor {
+  color: #0a293e;
+  font-size: 150%;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 5px;
+}
+
+.detailsText {
+  margin: 36px 0px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  padding-left: 10%;
 }
