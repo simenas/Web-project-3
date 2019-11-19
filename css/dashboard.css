@@ -138,3 +138,20 @@ div.menuText6 {
   text-align: left;
   padding-left: 10%;
 }
+
+@media (max-width: 850px) {
+    .wrapper {
+      display: grid;
+      justify-content: center;
+      }
+
+      #mySidenav {
+        display: none;
+      }
+
+    /* Makes entire div and content inside div smaller ... Did not work as well as expected. Will keep if needed later */
+    /* .alert1 {
+         transform: scale(0.7, 0.7);
+      } */
+    }
+}

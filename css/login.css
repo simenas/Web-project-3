@@ -13,6 +13,7 @@ sup {
 }
 
 .wrapper {
+  justify-content: center;
   display: grid;
   margin: auto;
   padding: 10px;
@@ -50,7 +51,7 @@ sup {
   display: grid;
   grid-template-columns: auto auto;
   color: #d2deec;
-  margin: 8px 0;
+  margin: 0px 0;
 }
 
 .grid-item2 {

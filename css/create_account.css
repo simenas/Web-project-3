@@ -22,6 +22,7 @@ sup {
 }
 
 .wrapper {
+  justify-content: center;
   display: grid;
   margin: auto;
   padding: 10px;
