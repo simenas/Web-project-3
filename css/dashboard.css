@@ -138,3 +138,35 @@ div.menuText6 {
   text-align: left;
   padding-left: 10%;
 }
+
+@media (max-width: 850px) {
+  h2 {
+    font-size: 20px;
+  }
+  .bellRight {
+    height: 20%;
+    top: 6%;
+  }
+  .alertValue,
+  .secureButton,
+  .secureColor,
+  .secureButtonBlue,
+  .detailsColor,
+  .alertUpDown {
+    font-size: 20px;
+  }
+  .wrapper {
+    display: grid;
+    justify-content: center;
+  }
+
+  #mySidenav {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    padding: 10px;
+  }
+}
