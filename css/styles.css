@@ -87,7 +87,11 @@ sup {
   background-color: #d2ddec;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 5%;
+  padding-top: 5em;
+}
+
+.closebtn {
+  font-weight: bold;
 }
 
 .sidenav img {
@@ -98,7 +102,6 @@ sup {
   text-decoration: none;
   font-size: 20px;
   font-family: "Montserrat";
-  font-weight: bold;
   color: #d2ddec;
   text-shadow: 1px 1px 2px black;
 }
@@ -151,20 +154,11 @@ sup {
   position: absolute;
   top: 0px;
   right: 20px;
-  font-size: 40px;
+  font-size: 50px;
   margin-left: 5px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 20px;
-  }
-  .sidenav a {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 850px) {
+@media screen and (max-width: 850px) {
   .wrapper {
     display: grid;
     justify-content: center;
