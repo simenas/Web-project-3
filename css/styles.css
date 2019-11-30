@@ -87,7 +87,7 @@ sup {
   background-color: #d2ddec;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 5em;
+  padding-top: 2em;
 }
 
 .closebtn {
@@ -118,6 +118,10 @@ sup {
   padding-bottom: 10px;
   margin-top: 4%;
   position: absolute;
+}
+
+.colorGreen {
+  color: #6bdb9a;
 }
 
 .grid-container .menuText2 a {
@@ -166,5 +170,6 @@ sup {
 
   #mySidenav {
     display: none;
+    filter: none;
   }
 }

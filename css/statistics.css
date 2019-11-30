@@ -1,3 +1,12 @@
+#mySidenav > div > div.totalBalance {
+  width: 100%;
+  border: 25px solid #0a293e;
+  color: #04915b;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: -1.7em;
+}
+
 #mySidenav > div > div.menuText5 {
   background-color: #09344a;
   width: 100%;
