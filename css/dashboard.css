@@ -32,6 +32,10 @@ div.menuText6 {
   padding-right: 30%;
 }
 
+body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
+  width: 11em;
+}
+
 .dashboard-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -48,10 +52,11 @@ div.menuText6 {
 .alert1 {
   background-color: #6bdb9a;
   position: relative;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   display: grid;
   box-shadow: 7px 6px 14px -4px;
   padding-left: 5%;
+  overflow-x: hidden;
 }
 
 .alert1Red {
@@ -74,6 +79,12 @@ div.menuText6 {
   font-size: 0.7em;
 }
 
+.curveCurrency {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 1em;
+}
+
 .bellRight {
   position: absolute;
   right: 5%;
@@ -93,13 +104,12 @@ div.menuText6 {
 }
 
 .secureButtonBlue {
-  border: 1px solid #0a293e;
+  border: 25px solid #0a293e;
   background-color: #0a293e;
-  margin: 36px 0px;
+  margin: 50px 0px;
   font-family: "Montserrat", sans-serif;
-  border-radius: 5px;
+  border-radius: 7px;
   text-align: center;
-  padding: 10%;
   box-shadow: 7px 6px 14px -4px;
 }
 
@@ -117,6 +127,7 @@ div.menuText6 {
   border-top-left-radius: 50px;
   position: relative;
   margin-top: 10%;
+  left: 2.4em;
 }
 
 .alertUpDownPositionRed {
@@ -164,6 +175,11 @@ div.menuText6 {
   .alertUpDown {
     font-size: 20px;
   }
+
+  .curveCurrency {
+    margin-top: 0.4em;
+  }
+
   .wrapper {
     display: grid;
     justify-content: center;
@@ -179,3 +195,10 @@ div.menuText6 {
     padding: 10px;
   }
 }
+
+/*
+.alert1 {
+  transform: scale(0.8, 0.8);
+}
+
+*/
