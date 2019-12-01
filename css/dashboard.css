@@ -51,11 +51,15 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
 .alert1 {
   background-color: #6bdb9a;
   position: relative;
-  grid-template-columns: auto auto auto auto;
-  display: grid;
   box-shadow: 7px 6px 14px -4px;
   padding-left: 5%;
   overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 30% 5% 30% 35%;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "eur arrow nok bell"
+  "secure . details updown"
 }
 
 .alert1Red {
@@ -71,7 +75,16 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   color: #0a293e;
   font-size: 2em;
   font-family: "Montserrat", sans-serif;
+  text-align: right;
+  grid-area: eur;
+}
+
+.alertValue2 {
+  color: #0a293e;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
   text-align: left;
+  grid-area: nok;
 }
 
 .eurSmall {
@@ -82,12 +95,15 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   text-align: center;
   font-size: 2em;
   margin-top: 1em;
+  grid-area: arrow;
+  color: #ef4750;
 }
 
 .bellRight {
   position: absolute;
-  right: 5%;
-  bottom: 70%;
+  right: 12%;
+  bottom: 40%;
+  grid-area: bell;
 }
 
 .secureButton {
@@ -100,6 +116,7 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   text-align: center;
   box-shadow: 7px 6px 14px -4px color black;
   letter-spacing: 5px;
+  grid-area: secure;
 }
 
 .secureButtonBlue {
@@ -125,8 +142,9 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   background-color: #7bf3a6;
   border-top-left-radius: 50px;
   position: relative;
-  margin-top: 10%;
-  left: 2.4em;
+  margin-top: 25%;
+  /* left: 2.4em; */
+  grid-area: updown;
 }
 
 .alertUpDownPositionRed {
@@ -138,10 +156,11 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
 }
 
 .alertUpDown {
-  padding-top: 10%;
+  padding-top: 8%;
   font-size: 2em;
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  grid-area: updown;
 }
 
 .detailsColor {
@@ -149,6 +168,8 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   font-size: 150%;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 5px;
+
+  text-align: left;
 }
 
 .detailsText {
@@ -156,6 +177,8 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   font-family: "Montserrat", sans-serif;
   text-align: left;
   padding-left: 10%;
+  margin-top: 50px;
+  grid-area: details;
 }
 
 @media (max-width: 850px) {
@@ -193,11 +216,8 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   .wrapper {
     padding: 10px;
   }
-}
 
-/*
 .alert1 {
   transform: scale(0.8, 0.8);
+  }
 }
-
-*/
