@@ -59,6 +59,9 @@ a {
   font-size: 100%;
   letter-spacing: 5px;
   text-align: right;
+  margin-bottom: 1em;
+  top: -0.8em;
+  position: relative;
 }
 
 #mySidenav {
@@ -172,6 +175,34 @@ sup {
     justify-content: center;
     transform: scale(0.7, 0.7);
     margin-top: -11em;
+  }
+
+  #mySidenav {
+    display: none;
+    filter: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    display: grid;
+    justify-content: center;
+    transform: scale(0.6, 0.6);
+    margin-top: -15em;
+  }
+
+  #mySidenav {
+    display: none;
+    filter: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper {
+    display: grid;
+    justify-content: center;
+    transform: scale(0.5, 0.5);
+    margin-top: -19em;
   }
 
   #mySidenav {
