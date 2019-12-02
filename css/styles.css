@@ -173,33 +173,6 @@ sup {
   .wrapper {
     display: grid;
     justify-content: center;
-    transform: scale(0.7, 0.7);
-  }
-
-  #mySidenav {
-    display: none;
-    filter: none;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .wrapper {
-    display: grid;
-    justify-content: center;
-    transform: scale(0.6, 0.6);
-  }
-
-  #mySidenav {
-    display: none;
-    filter: none;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .wrapper {
-    display: grid;
-    justify-content: center;
-    transform: scale(0.5, 0.5);
   }
 
   #mySidenav {
