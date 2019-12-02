@@ -233,9 +233,44 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   }
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 850px) {
   .wrapper {
-    padding: 10px;
+    display: grid;
+    justify-content: center;
+    transform: scale(0.7, 0.7);
+    margin-top: -11em;
+  }
+
+  #mySidenav {
+    display: none;
+    filter: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    display: grid;
+    justify-content: center;
     transform: scale(0.6, 0.6);
+    margin-top: -15em;
+  }
+
+  #mySidenav {
+    display: none;
+    filter: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper {
+    display: grid;
+    justify-content: center;
+    transform: scale(0.5, 0.5);
+    margin-top: -19em;
+  }
+
+  #mySidenav {
+    display: none;
+    filter: none;
   }
 }

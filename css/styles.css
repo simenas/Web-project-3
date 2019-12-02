@@ -174,7 +174,6 @@ sup {
     display: grid;
     justify-content: center;
     transform: scale(0.7, 0.7);
-    margin-top: -11em;
   }
 
   #mySidenav {
@@ -188,7 +187,6 @@ sup {
     display: grid;
     justify-content: center;
     transform: scale(0.6, 0.6);
-    margin-top: -15em;
   }
 
   #mySidenav {
@@ -202,7 +200,6 @@ sup {
     display: grid;
     justify-content: center;
     transform: scale(0.5, 0.5);
-    margin-top: -19em;
   }
 
   #mySidenav {
