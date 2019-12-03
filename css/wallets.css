@@ -25,6 +25,15 @@ div.menuText6 {
   border: 25px solid #0a293e;
 }
 
+h1,
+h2,
+h3,
+h4,
+div {
+  font-family: "Montserrat";
+  color: #d2deec;
+}
+
 .wrapper {
   display: grid;
   margin: auto;
@@ -32,14 +41,61 @@ div.menuText6 {
   padding-right: 30%;
 }
 
-.dashboard-container {
+.wallets-container {
   display: grid;
   grid-template-columns: auto auto;
   color: #d2deec;
   margin: 8px 0;
 }
 
-.smallGap {
-  bottom: 15%;
-  position: relative;
+.dollarSpace {
+  margin-top: -2em;
+}
+
+.currencySpace {
+  margin-bottom: 0em;
+}
+
+.changeWallet {
+  border: 25px solid #d2ddec;
+  color: #0a293e;
+  background-color: #d2ddec;
+  text-align: left;
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+.swapCurrency {
+  margin-top: 2em;
+}
+
+.changeProtection {
+  border: 25px solid #d2ddec;
+  color: #0a293e;
+  margin-top: 1em;
+  margin-right: -8em;
+  background-color: #d2ddec;
+  text-align: left;
+  font-weight: bold;
+}
+
+.addButton {
+  border: 25px solid green;
+  color: white;
+  background-color: green;
+  font-size: 1em;
+  margin-right: -5em;
+  text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+  .wrapper {
+    display: grid;
+    justify-content: center;
+  }
+
+  #mySidenav {
+    display: none;
+    filter: none;
+  }
 }

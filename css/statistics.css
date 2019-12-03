@@ -30,11 +30,12 @@ div.menuText6 {
   margin: auto;
   padding-left: 30%;
   padding-right: 30%;
+  justify-content: center;
 }
 
 .statistics {
   margin-top: 1em;
-  padding-right: 5%
+  padding-right: 5%;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: repeat(4, 100px);
@@ -45,6 +46,7 @@ div.menuText6 {
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
+  margin-left: 2.5em;
 }
 
 .text {
@@ -56,13 +58,13 @@ div.menuText6 {
 }
 .text p {
   font-family: "Montserrat", sans-serif;
-  color: #6CDA9B;
+  color: #6cda9b;
   font-size: 1em;
 }
 
 .text h1 {
   font-family: "Montserrat", sans-serif;
-  color: #6CDA9B;
+  color: #6cda9b;
   font-size: 2em;
 }
 
@@ -72,6 +74,10 @@ div.menuText6 {
   grid-row-start: 4;
   grid-row-end: 4;
   font-family: "Montserrat", sans-serif;
-  color: #6CDA9B;
+  color: #6cda9b;
   font-size: 1.5em;
+}
+
+.nokRed {
+  color: #ef4750;
 }

@@ -54,34 +54,20 @@ div.menuText5 {
   color: white;
   font-size: 2em;
   font-family: "Montserrat", sans-serif;
-  text-align: start;
 }
 
  .onOFF {
-  margin-top: 1em;
-  padding-left: 5%;
+  padding-left: 10%;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 1;
-  color: white;
-  font-size: 2em;
-  font-family: "Montserrat", sans-serif;
   align-self: center;
-  justify-self: end;
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
 }
 
 .currency {
   margin-top: 1em;
-  padding-left: 5%;
+  padding-left: 10%;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
@@ -89,20 +75,18 @@ div.menuText5 {
   color: white;
   font-size: 2em;
   font-family: "Montserrat", sans-serif;
-  text-align: start;
-  align-self: end;
 }
 
 .usd {
+  margin-top: 1em;
+  padding-left: 10%;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 2;
-  color: white;
+  color: #6CDA9B;
   font-size: 2em;
   font-family: "Montserrat", sans-serif;
-  text-align: start;
-  align-self: end;
 }
 
 .feedback {
@@ -119,31 +103,42 @@ div.menuText5 {
   text-align: start;
 }
 
+/*
+.arrow {
+  margin-top: 1em;
+  margin
+  padding-left: 5%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  align-self: start;
+  color: white;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+} */
+
 .version {
+  margin-top: 1em;
+  padding-left: 5%;
+  color: white;
+  font-size: 2em;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logOutButton {
+  padding-left: 10%;
   margin-top: 1em;
   color: white;
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 4;
-  border: 1px solid #0A293E;
-  background-color: #0A293E;
-  padding: 15px 0px;
-  margin: 1.5em 15px;
-  font-family: "Montserrat", sans-serif;
-  border-radius: 5px;
-  text-align: center;
-  box-shadow: 7px 6px 14px -4px color black;
-  letter-spacing: 5px;
-}
-
-.logOutButton {
-  margin-top: 1em;
-  color: white;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 4;
-  grid-row-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 5;
   border: 1px solid #ef4750;
   background-color: #ef4750;
   padding: 15px 0px;
@@ -219,3 +214,21 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+@media (max-width: 885px) {
+  .notifications,
+  .currency,
+  .usd,
+  .feedback,
+  .version {
+    font-size: 1.5em;
+  }
+
+.logOutButton {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+
+  }
