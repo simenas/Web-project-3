@@ -28,16 +28,15 @@ div.menuText5 {
 .wrapperSettings {
   display: grid;
   margin: auto;
-  padding-left: 30%;
-  padding-right: 30%;
+  justify-content: center;
 }
 
 .settings {
   margin-top: 1em;
-  background-color: #09364B;
+  background-color: #09364b;
   position: relative;
   box-shadow: 7px 6px 14px -4px;
-  padding-right: 5%
+  padding-right: 5%;
   overflow-x: hidden;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -56,8 +55,8 @@ div.menuText5 {
   font-family: "Montserrat", sans-serif;
 }
 
- .onOFF {
-  padding-left: 10%;
+.onOff {
+  padding-left: 65%;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -84,7 +83,7 @@ div.menuText5 {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 2;
-  color: #6CDA9B;
+  color: #6cda9b;
   font-size: 2em;
   font-family: "Montserrat", sans-serif;
 }
@@ -122,7 +121,7 @@ div.menuText5 {
 .version {
   margin-top: 1em;
   padding-left: 5%;
-  color: white;
+  color: #6f6f6f;
   font-size: 2em;
   grid-column-start: 1;
   grid-column-end: 3;
@@ -150,6 +149,10 @@ div.menuText5 {
   letter-spacing: 5px;
 }
 
+.logOutButton:hover {
+  opacity: 0.7;
+}
+
 /*Switch slider from w3schools "How to create a toggle switch" */
 
 /* The switch - the box around the slider */
@@ -175,9 +178,9 @@ div.menuText5 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #0A293E;
-  -webkit-transition: .4s;
-  transition: .4s;
+  background-color: #0a293e;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -188,16 +191,16 @@ div.menuText5 {
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #6CDA9B;
+  background-color: #6cda9b;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .slider:before {
@@ -215,7 +218,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-@media (max-width: 885px) {
+@media (max-width: 960px) {
   .notifications,
   .currency,
   .usd,
@@ -224,11 +227,15 @@ input:checked + .slider:before {
     font-size: 1.5em;
   }
 
-.logOutButton {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 5;
-  grid-row-end: 5;
-}
-
+  .onOff {
+    position: relative;
+    top: -13%;
   }
+
+  .logOutButton {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+  }
+}
