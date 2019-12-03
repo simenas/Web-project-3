@@ -41,6 +41,14 @@ sup {
   text-align: center;
 }
 
+.signIn:hover {
+  opacity: 0.7;
+}
+
+.signinButton:hover {
+  opacity: 0.7;
+}
+
 .orFont {
   padding-top: 5%;
   font-family: "Montserrat", sans-serif;

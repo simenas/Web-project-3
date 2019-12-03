@@ -65,6 +65,18 @@ div {
   margin-right: 1em;
 }
 
+.changeWallet:hover {
+  opacity: 0.7;
+}
+
+.changeProtection:hover {
+  opacity: 0.7;
+}
+
+.addButton:hover {
+  opacity: 0.7;
+}
+
 .swapCurrency {
   margin-top: 2em;
 }
