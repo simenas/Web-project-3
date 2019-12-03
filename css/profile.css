@@ -84,7 +84,7 @@ div.menuText6 {
   grid-row-start: 2;
   grid-row-end: 2;
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Montserrat", sans-serif;
   text-align: start;
   align-self: end;
@@ -99,7 +99,7 @@ div.menuText6 {
   grid-row-end: 3;
   align-self: start;
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Montserrat", sans-serif;
   text-align: start;
 }
@@ -133,9 +133,8 @@ div.menuText6 {
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 4;
-  border: 1px solid #ef4750;
   background-color: #ef4750;
-  padding: 15px 0px;
+  padding: 14px 0px;
   margin: 1.2em 15px;
   font-family: "Montserrat", sans-serif;
   border-radius: 5px;
@@ -187,7 +186,6 @@ div.menuText6 {
     grid-row-start: 4;
     grid-row-end: 4;
     align-self: start;
-    font-size: 1.8em;
   }
   .logOutButton {
     grid-column-start: 1;
@@ -217,6 +215,7 @@ div.menuText6 {
     box-shadow: 7px 6px 14px -4px;
     padding-right: 5%;
     padding-bottom: 2em;
+    padding-right: 2em;
     overflow-x: hidden;
     display: grid;
     grid-template-columns: 100%;
@@ -238,14 +237,13 @@ div.menuText6 {
     grid-row-start: 2;
     grid-row-end: 2;
     align-self: start;
-    font-size: 1.7em;
+    margin-right: -2em;
   }
   .email {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 3;
-    font-size: 1.7em;
   }
   .password {
     grid-column-start: 1;
@@ -253,7 +251,7 @@ div.menuText6 {
     grid-row-start: 4;
     grid-row-end: 4;
     align-self: start;
-    font-size: 1.7em;
+    margin-right: -1em;
   }
   .logOutButton {
     grid-column-start: 1;
@@ -274,7 +272,6 @@ div.menuText6 {
     font-size: 1em;
   }
 }
-
 @media (max-width: 550px) {
   .name,
   .username,
