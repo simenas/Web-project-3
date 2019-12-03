@@ -25,11 +25,108 @@ div.menuText6 {
   border: 25px solid #0a293e;
 }
 
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  margin: auto;
+  padding-left: 30%;
+  justify-content: center;
+  padding-right: 30%;
+}
+
+.alerts-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  color: #d2deec;
+  margin: 8px 0;
+}
+
+.chosenAlert {
+  text-align: left;
+}
+
+.smallGap {
+  bottom: 15%;
+  position: relative;
+}
+
+/*Switch slider from w3schools "How to create a toggle switch" */
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-top: 0.7em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0a293e;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #6cda9b;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
 .wrapper {
   display: grid;
   margin: auto;
   padding-left: 30%;
   padding-right: 30%;
+}
+body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
+  width: 11em;
 }
 
 .dashboard-container {
@@ -42,4 +139,240 @@ div.menuText6 {
 .smallGap {
   bottom: 15%;
   position: relative;
+  color: #d2deeca1;
+}
+
+.alert1 {
+  background-color: #6bdb9a;
+  position: relative;
+  padding-left: 5%;
+  overflow-x: hidden;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 30% 5% 30% 35%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "eur arrow nok bell"
+    "secure . details updown";
+}
+
+.alert1Red {
+  background-color: #b87682;
+  position: relative;
+  box-shadow: 7px 6px 14px -4px;
+  padding-left: 5%;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 30% 5% 30% 35%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "eur arrow nok bell"
+    "secure . details updown";
+}
+
+.alertValue {
+  color: #0a293e;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  grid-area: eur;
+}
+
+.alertValue2 {
+  color: #0a293e;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  text-align: right;
+  grid-area: nok;
+}
+
+.eurSmall {
+  font-size: 0.7em;
+}
+
+.curveCurrency {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 1em;
+  grid-area: arrow;
+  color: #ef4750;
+}
+
+.bellRight {
+  position: absolute;
+  right: 6%;
+  top: 10%;
+}
+
+.secureButton {
+  border: 1px solid #ef4750;
+  background-color: #ef4750;
+  padding: 20px 0px;
+  margin: 1.5em 0;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 7px 6px 14px -4px color black;
+  letter-spacing: 5px;
+  grid-area: secure;
+}
+
+.secureButton:hover {
+  opacity: 0.7;
+}
+
+.secureButtonBlue:hover {
+  opacity: 0.7;
+}
+
+.secureButtonBlue {
+  border: 2em solid #0a293e;
+  background-color: #0a293e;
+  margin: 50px 0px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.secureColor {
+  color: #d2deec;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.7em;
+  text-align: center;
+  margin-right: 9em;
+}
+
+.alertUpDownPosition {
+  color: #04915b;
+  background-color: #7bf3a6;
+  border-top-left-radius: 50px;
+  position: relative;
+  margin-top: 25%;
+  margin-left: 1em;
+  /* left: 2.4em; */
+  grid-area: updown;
+}
+
+.alertUpDownPositionRed {
+  color: #fe2729;
+  background-color: #df8893;
+  border-top-left-radius: 50px;
+  position: relative;
+  margin-top: 25%;
+  margin-left: 1em;
+  /* left: 2.4em; */
+  grid-area: updown;
+}
+
+.alertUpDown {
+  padding-top: 8%;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  grid-area: updown;
+}
+
+.detailsColor {
+  color: #0a293e;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+.detailsText {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  margin-top: 5em;
+  grid-area: details;
+}
+
+@media screen and (max-width: 1300px) {
+  .wrapper {
+    padding-top: 10px;
+    transform: scale(0.8, 0.8);
+    margin-top: -5em;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .wrapper {
+    display: grid;
+    justify-content: center;
+    transform: scale(0.7, 0.7);
+    margin-top: -7em;
+  }
+
+  #mySidenav {
+    display: none;
+    filter: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  h2 {
+    font-size: 25px;
+  }
+  .bellRight {
+    height: 20%;
+    top: 6%;
+  }
+  .secureButtonBlue {
+    margin: 1em 0px;
+  }
+  .alertValue,
+  .alertValue2,
+  .secureButton,
+  .secureColor,
+  .secureButtonBlue,
+  .detailsColor,
+  .alertUpDown {
+    font-size: 20px;
+  }
+
+  .detailsText {
+    margin-top: 3em;
+  }
+
+  .curveCurrency {
+    margin-top: 0.4em;
+  }
+
+  .wrapper {
+    display: grid;
+    justify-content: center;
+    margin-top: -6em;
+  }
+
+  #mySidenav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    display: grid;
+    justify-content: center;
+    transform: scale(0.6, 0.6);
+    margin-top: -7em;
+  }
+
+  #mySidenav {
+    display: none;
+    filter: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper {
+    display: grid;
+    justify-content: center;
+    transform: scale(0.5, 0.5);
+    margin-top: -8em;
+  }
+
+  #mySidenav {
+    display: none;
+    filter: none;
+  }
 }

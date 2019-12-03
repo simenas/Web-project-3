@@ -31,6 +31,11 @@ div.menuText5 {
   justify-content: center;
 }
 
+.settings::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
 .settings {
   margin-top: 1em;
   background-color: #09364b;
