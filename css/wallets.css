@@ -34,6 +34,13 @@ div {
   color: #d2deec;
 }
 
+.wrapperProtection {
+  display: grid;
+  margin: auto;
+
+  justify-content: center;
+}
+
 .wrapper {
   display: grid;
   margin: auto;
@@ -119,6 +126,19 @@ div {
   font-size: 1em;
   margin-right: -5em;
   text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .wrapperProtection {
+    display: grid;
+    justify-content: center;
+    transform: scale(0.8, 0.8);
+  }
+
+  #mySidenav {
+    display: none;
+    filter: none;
+  }
 }
 
 @media screen and (max-width: 850px) {
