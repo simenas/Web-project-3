@@ -46,6 +46,33 @@ h3 {
 
 .chosenAlert {
   text-align: left;
+  margin-top: 2em;
+}
+
+.chooseAlert {
+  text-align: center;
+  border: 25px solid #d2deec;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  background-color: #d2deec;
+  color: #0a293e;
+  font-family: "Montserrat", sans-serif;
+  width: 15em;
+}
+
+.greenGain {
+  color: #6bdb9a;
+}
+
+.redDrop {
+  color: #ef4750;
+}
+
+.choosebellRight {
+  position: relative;
+  top: 0.2em;
+  right: -1.5em;
 }
 
 .smallGap {
@@ -53,78 +80,6 @@ h3 {
   position: relative;
 }
 
-/*Switch slider from w3schools "How to create a toggle switch" */
-
-/* The switch - the box around the slider */
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-  margin-top: 0.7em;
-}
-
-/* Hide default HTML checkbox */
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-/* The slider */
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #0a293e;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-input:checked + .slider {
-  background-color: #6cda9b;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-.wrapper {
-  display: grid;
-  margin: auto;
-  padding-left: 30%;
-  padding-right: 30%;
-}
 body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   width: 11em;
 }
@@ -159,7 +114,6 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
 .alert1Red {
   background-color: #b87682;
   position: relative;
-  box-shadow: 7px 6px 14px -4px;
   padding-left: 5%;
   overflow-x: hidden;
   display: grid;
@@ -287,20 +241,20 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   grid-area: details;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   .wrapper {
     padding-top: 10px;
     transform: scale(0.8, 0.8);
-    margin-top: -5em;
+    margin-top: -8em;
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .wrapper {
     display: grid;
     justify-content: center;
     transform: scale(0.7, 0.7);
-    margin-top: -7em;
+    margin-top: -11em;
   }
 
   #mySidenav {
@@ -341,7 +295,7 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   .wrapper {
     display: grid;
     justify-content: center;
-    margin-top: -6em;
+    margin-top: -9em;
   }
 
   #mySidenav {
@@ -354,7 +308,7 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
     display: grid;
     justify-content: center;
     transform: scale(0.6, 0.6);
-    margin-top: -7em;
+    margin-top: -12em;
   }
 
   #mySidenav {
@@ -368,7 +322,7 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
     display: grid;
     justify-content: center;
     transform: scale(0.5, 0.5);
-    margin-top: -8em;
+    margin-top: -15em;
   }
 
   #mySidenav {
