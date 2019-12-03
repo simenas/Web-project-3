@@ -216,8 +216,6 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   .secureButtonBlue {
     margin: 1em 0px;
   }
-  .alertValue,
-  .alertValue2,
   .secureButton,
   .secureColor,
   .secureButtonBlue,
@@ -231,7 +229,8 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   }
 
   .curveCurrency {
-    margin-top: 0.4em;
+    margin-top: 1em;
+    margin-right: 2em;
   }
 
   .wrapper {
