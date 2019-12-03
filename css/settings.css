@@ -242,5 +242,6 @@ input:checked + .slider:before {
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 5;
+    margin-right: -6em;
   }
 }
