@@ -27,8 +27,9 @@ var secureAlerts = document.getElementById("myBtn");
 secureAlerts.addEventListener("click", mySecondFunction);
 
 function mySecondFunction() {
-  document.getElementById("securedAll").innerHTML = "SECURED";
+  document.getElementById("securedAll").innerHTML = "You are secured!";
   elem.remove();
+  console.log("You are secured!");
 }
 
 /*Secures alert1*/
@@ -39,5 +40,27 @@ secureAlert1.addEventListener("click", removeAlertbox1);
 
 function removeAlertbox1() {
   alertBox1.remove();
-  console.log("test");
+  console.log("Alertbox1 removed!");
+}
+
+/*Secures alert2*/
+var alertBox2 = document.getElementById("alertBox2");
+var secureAlert2 = document.getElementById("secureAlert2");
+
+secureAlert2.addEventListener("click", removeAlertbox2);
+
+function removeAlertbox2() {
+  alertBox2.remove();
+  console.log("Alertbox2 removed!");
+}
+
+/*Secures alert3*/
+var alertBox3 = document.getElementById("alertBox3");
+var secureAlert3 = document.getElementById("secureAlert3");
+
+secureAlert3.addEventListener("click", removeAlertbox3);
+
+function removeAlertbox3() {
+  alertBox3.remove();
+  console.log("Alertbox3 removed!");
 }
