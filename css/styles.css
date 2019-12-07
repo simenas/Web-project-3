@@ -40,6 +40,7 @@ a {
   font-family: "Montserrat";
   text-shadow: 1px 1px 2px black;
   color: #ef4750;
+  letter-spacing: 15px;
 }
 
 .monetorLogo:hover {
