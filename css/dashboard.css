@@ -30,6 +30,7 @@ div.menuText6 {
   margin: auto;
   padding-left: 30%;
   padding-right: 30%;
+  justify-content: center;
 }
 body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   width: 11em;
@@ -127,21 +128,44 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   grid-area: secure;
 }
 
-.secureButton:hover {
+#myBtn {
+  border: 1px solid #ef4750;
+  background-color: #ef4750;
+  color: white;
+  padding: 20px 0px;
+  margin: 1.5em 0;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1.2em;
+  text-align: center;
+  box-shadow: 7px 6px 14px -4px color black;
+  letter-spacing: 5px;
+  grid-area: secure;
+}
+
+#myBtn:hover {
   opacity: 0.7;
 }
 
-.secureButtonBlue:hover {
+#secureAlert1:hover {
   opacity: 0.7;
 }
 
-.secureButtonBlue {
-  border: 2em solid #0a293e;
+#secureAlert1,
+#secureAlert2,
+#secureAlert3 {
+  border: 1em solid #0a293e;
   background-color: #0a293e;
   margin: 50px 0px;
+  color: #d2deec;
+  font-size: 1.7em;
   font-family: "Montserrat", sans-serif;
   border-radius: 7px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
   text-align: center;
+  margin-right: 9em;
 }
 
 .secureColor {
@@ -197,91 +221,32 @@ body > div.wrapper > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
   grid-area: details;
 }
 
-@media screen and (max-width: 1300px) {
-  .wrapper {
-    padding-top: 10px;
-    transform: scale(0.8, 0.8);
-    margin-top: -10em;
-  }
+#securedAll {
+  text-align: center;
+  font-size: 4em;
+  color: #6bdb9a;
+  font-family: "Merienda", cursive;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1250px) {
   h2 {
     font-size: 25px;
   }
-  .bellRight {
-    height: 20%;
-    top: 6%;
-  }
-  .secureButtonBlue {
-    margin: 1em 0px;
-  }
-  .secureButton,
-  .secureColor,
-  .secureButtonBlue,
-  .detailsColor,
-  .alertUpDown {
-    font-size: 20px;
-  }
-
-  .detailsText {
-    margin-top: 3em;
-  }
-
-  .curveCurrency {
-    margin-top: 1em;
-    margin-right: 2em;
-  }
-
-  .wrapper {
-    display: grid;
-    justify-content: center;
-    margin-top: -8em;
-  }
-
   #mySidenav {
     display: none;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 800px) {
   .wrapper {
-    display: grid;
-    justify-content: center;
-    transform: scale(0.7, 0.7);
-    margin-top: -11em;
-  }
-
-  #mySidenav {
-    display: none;
-    filter: none;
+    transform: scale(0.7);
+    margin-top: -14em;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .wrapper {
-    display: grid;
-    justify-content: center;
-    transform: scale(0.6, 0.6);
-    margin-top: -15em;
-  }
-
-  #mySidenav {
-    display: none;
-    filter: none;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .wrapper {
-    display: grid;
-    justify-content: center;
-    transform: scale(0.5, 0.5);
-    margin-top: -19em;
-  }
-
-  #mySidenav {
-    display: none;
-    filter: none;
+    transform: scale(0.5);
+    margin-top: -23em;
   }
 }

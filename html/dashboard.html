@@ -7,6 +7,8 @@
       href="https://fonts.googleapis.com/css?family=Montserrat"
       rel="stylesheet"/>
 
+      <link href="https://fonts.googleapis.com/css?family=Merienda:400,700&display=swap" rel="stylesheet">
+
       <link rel="stylesheet" type="text/css" href="../css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat"
@@ -68,15 +70,16 @@
         <hr/>
      <div class="dashboard-container">
 
-
         <div>
         <h2>Alerts</h2>
         <p class="smallGap">Act on them now!</p>
         </div>
 
         <div>
-          <a href="dashboard.html">
-            <div class="secureButton">SECURE ALL</div>
+          <a>
+            <div>
+              <button id="myBtn">SECURE ALL</button>
+              </div>
           </a>
         </div>
         </div>
@@ -86,9 +89,12 @@
 
 <!------FIRST BOX------>
 
+
+<p id="securedAll"></p>
+<div id="alertBoxes">
+    <div id="alertBox1">
         <div class="header4"><h2>EUR / NOK</h2></div>
       <div class="alert1">
-
 
         <!--Første tre kolonnene-->
         <div><h3 class="alertValue">34.123 <span class="eurSmall">EUR</span></h3></div>
@@ -98,11 +104,13 @@
 
 
         <!--Andre tre kolonnene-->
-        <div class="secureButtonBlue"><span class="secureColor">SECURE</span></div>
+        
+        <div><button id="secureAlert1">SECURE</button></div>
         <div class="detailsText"><h3 class="detailsColor">DETAILS</h3></div>
         <div class="alertUpDownPosition"><h3 class="alertUpDown">&#9650; 2.110 <span class="eurSmall">NOK</span></h3></div>
       <div></div>
     </div><br><br>
+    </div>
 
 <!------FIRST BOX------>
 
@@ -110,7 +118,7 @@
 
 <!------SECOND BOX------>
 
-
+<div id="alertBox2">
       <div class="header4"><h2>USD / NOK</h2></div>
       <div class="alert1Red">
 
@@ -123,17 +131,19 @@
 
 
         <!--Andre tre kolonnene-->
-        <div class="secureButtonBlue"><span class="secureColor">SECURE</span></div>
+        <div><button id="secureAlert2">SECURE</button></div>
         <div class="detailsText"><h3 class="detailsColor">DETAILS</h3></div>
         <div class="alertUpDownPositionRed"><h3 class="alertUpDown">&#9660; 2.110 <span class="eurSmall">NOK</span></h3></div>
       <div></div>
     </div><br><br>
+  </div>
 
 <!------SECOND BOX------>
 
 
 <!------THIRD BOX------>
 
+<div id="alertBox3">
       <div class="header4"><h2>GDP / NOK</h2></div>
       <div class="alert1">
 
@@ -146,14 +156,15 @@
 
 
         <!--Andre tre kolonnene-->
-        <div class="secureButtonBlue"><span class="secureColor">SECURE</span></div>
+        <div><button id="secureAlert3">SECURE</button></div>
         <div class="detailsText"><h3 class="detailsColor">DETAILS</h3></div>
         <div class="alertUpDownPosition"><h3 class="alertUpDown">&#9650; 3.710 <span class="eurSmall">NOK</span></h3></div>
       <div></div>
     </div><br><br>
+  </div>
 
 <!------THIRD BOX------>
-
+</div>
     <div>
 
   </div>

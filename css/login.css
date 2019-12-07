@@ -62,8 +62,13 @@ sup {
   margin: 0px 0;
 }
 
+.grid-item {
+  font-family: "Montserrat", sans-serif;
+}
+
 .grid-item2 {
   text-align: right;
+  font-family: "Montserrat", sans-serif;
 }
 
 #eMail,
