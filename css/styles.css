@@ -184,6 +184,13 @@ sup {
     justify-content: center;
   }
 
+  .monetorLogo {
+    font-size: 1em;
+    top: 1.2em;
+    position: relative;
+    letter-spacing: 8px;
+  }
+
   #mySidenav {
     display: none;
     filter: none;
