@@ -39,6 +39,12 @@ function mySecondFunction() {
     document.getElementById("securedAll").innerHTML = "You are secured!";
     elem.remove();
     console.log("You are secured!");
+  }
+  if (window.matchMedia("(max-width: 500px)").matches) {
+    document.getElementById("main").style.marginTop = "17em";
+    document.getElementById("securedAll").innerHTML = "You are secured!";
+    elem.remove();
+    console.log("You are secured!");
   } else {
     document.getElementById("securedAll").innerHTML = "You are secured!";
     elem.remove();
@@ -63,6 +69,11 @@ function removeAlertbox1() {
     document.getElementById("main").style.marginTop = "6.3em";
     alertBox1.remove();
     console.log("Alertbox1 removed!");
+  }
+  if (window.matchMedia("(max-width: 500px)").matches) {
+    document.getElementById("main").style.marginTop = "7.5em";
+    alertBox1.remove();
+    console.log("Alertbox1 removed!");
   } else {
     alertBox1.remove();
     console.log("Alertbox1 removed!");
@@ -83,6 +94,11 @@ function removeAlertbox2() {
   }
   if (window.matchMedia("(max-width: 600px)").matches) {
     document.getElementById("main").style.marginTop = "12.6em";
+    alertBox2.remove();
+    console.log("Alertbox2 removed!");
+  }
+  if (window.matchMedia("(max-width: 500px)").matches) {
+    document.getElementById("main").style.marginTop = "15em";
     alertBox2.remove();
     console.log("Alertbox2 removed!");
   } else {
@@ -107,6 +123,11 @@ function removeAlertbox3() {
     document.getElementById("main").style.marginTop = "18em";
     alertBox3.remove();
     console.log("Alertbox3 removed!");
+  }
+  if (window.matchMedia("(max-width: 500px)").matches) {
+    document.getElementById("main").style.marginTop = "22.5em";
+    alertBox2.remove();
+    console.log("Alertbox2 removed!");
   } else {
     alertBox3.remove();
     console.log("Alertbox3 removed!");
