@@ -43,6 +43,10 @@ a {
   letter-spacing: 15px;
 }
 
+.crossMargin {
+  padding-left: 2em;
+}
+
 .monetorLogo:hover {
   opacity: 0.7;
 }

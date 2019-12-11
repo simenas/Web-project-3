@@ -9,3 +9,8 @@ Simen André Stenbakk
 Lysa Sophie Botn Stensland
 
 Vetle Kruse Gundersen
+
+
+## How to open the files
+
+- Simply download the zip, extract it to any folder. Then open "index.html". Enjoy :)
