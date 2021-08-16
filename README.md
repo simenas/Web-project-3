@@ -6,7 +6,7 @@ Stian Hjulstad Nilsen
 
 Simen André Stenbakk
 
-Lysa Sophie Botn Stensland
+Lysa Sophie
 
 Vetle Kruse Gundersen
 
